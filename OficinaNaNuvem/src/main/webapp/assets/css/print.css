@@ -1,0 +1,47 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    #printable, #printable * {
+        visibility: visible;
+    }
+    #printable, b {
+        visibility: visible;
+        color: white !important;
+        -webkit-print-color-adjust: exact;
+    }
+    #printable {
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    .myDivToPrint {
+        color: white !important;
+        background-color: black !important;
+        text-align: 
+            center; margin-top: 1%;
+        -webkit-print-color-adjust: exact;
+    }
+
+
+    .bordas{
+
+        border: 1px solid rgb(119, 119, 119);
+        -webkit-print-color-adjust: exact;
+    }
+
+    .margin-top-6{
+
+        margin-top: 6%
+
+    }
+
+    .fundoCinza{
+        border: 1px solid rgb(119, 119, 119);
+        background-color:rgb(163, 163, 163);
+
+        -webkit-print-color-adjust: exact;
+    }
+
+}
